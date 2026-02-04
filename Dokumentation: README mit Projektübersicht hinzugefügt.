@@ -1,0 +1,15 @@
+Projektübersicht
+​1. Smarty Framework & Basis-Struktur
+​Kern-System: Vollständige Implementierung der Smarty-Bibliotheken inklusive Autoloader und Plugins.
+​Templates: Zentralisierte Verwaltung von Design-Vorlagen für konsistente Layouts.
+​2. Praxisprojekte (SmartyWebsites 1-4)
+​Dynamische Webseiten: Vier verschiedene Web-Projekte, die den Einsatz von Smarty zur Erstellung modularer und skalierbarer Oberflächen demonstrieren.
+​MVC-Ansatz: Trennung von PHP-Logik (Klassen/Controller) und Frontend-Darstellung (Templates).
+​3. Highlight: Automatisierte Rechnungsstellung
+​Rechnungs-Generator: Ein praxisnahes PHP-Tool zur dynamischen Generierung von Dokumenten.
+​Features: Logik zur Datenverarbeitung und strukturierte Ausgabe von Rechnungsinformationen.
+​🛠️ Verwendete Technologien
+​PHP: Objektorientierte Programmierung (OOP) und Backend-Logik.
+​Smarty Engine: Template-Management für sauberen Code.
+​Web-Standards: HTML5, CSS3 und Bootstrap für responsive Designs.
+
