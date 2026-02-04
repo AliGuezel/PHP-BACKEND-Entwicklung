@@ -2,21 +2,24 @@
 
 require 'classes/Smarty.class.php';
 
-// create object
-$smarty = new Smarty;
+if(isset($_GET["nav"])) {
+    $nav = $_GET["nav"];
+} else {
+    $nav = "startseite";
+}
 
-//$smarty->debugging = true;
+$smarty = new Smarty();
 
-$smarty ->addPluginsDir('classes/myplugins')
-        ->setTemplateDir('templates2');
-
-// assign some content. This would typically come from
-// a database or other source, but we'll use static
-// values for the purpose of this example.
-$smarty->assign('name', 'george smith');
-$smarty->assign('address', '45th & Harris');
-
-$smarty->assign('obst', ['Apfel', 'Birne', 'Orange']);
-
-// display it
-$smarty->display('index.tpl');
+switch ($nav) {
+    case 'kontakt':
+        $content_str = $smarty->fetch('kontakt.tpl');
+        break;
+    case 'impressum':
+        $content_str = $smarty->fetch('impressum.tpl');
+        break;
+    default:
+        $content_str = $smarty->fetch('startseite.tpl');
+        break;
+}
+$smarty->assign('content', $content_str);
+$smarty->display('layout.tpl');

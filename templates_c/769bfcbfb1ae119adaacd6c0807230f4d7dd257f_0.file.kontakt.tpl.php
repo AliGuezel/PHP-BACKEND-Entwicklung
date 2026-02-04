@@ -1,0 +1,26 @@
+<?php
+/* Smarty version 4.2.1, created on 2022-10-28 08:27:08
+  from 'C:\xampp\htdocs\Dropbox\php_fortgeschritten_18_10_2022\SmartyWebsite1\templates\kontakt.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '4.2.1',
+  'unifunc' => 'content_635b763cd44020_01898695',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '769bfcbfb1ae119adaacd6c0807230f4d7dd257f' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\Dropbox\\php_fortgeschritten_18_10_2022\\SmartyWebsite1\\templates\\kontakt.tpl',
+      1 => 1666938162,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_635b763cd44020_01898695 (Smarty_Internal_Template $_smarty_tpl) {
+?><h2>Kontakt</h2>
+<?php }
+}
