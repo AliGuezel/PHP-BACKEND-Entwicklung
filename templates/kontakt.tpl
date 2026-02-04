@@ -1,1 +1,3 @@
-<h2>Kontakt</h2>
+{include file="header.tpl" title="-=Kontakt=-"}
+<h1>Kontakt</h1>
+{include file="footer.tpl"}
