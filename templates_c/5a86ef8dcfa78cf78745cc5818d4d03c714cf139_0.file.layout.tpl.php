@@ -1,4 +1,28 @@
-<!DOCTYPE HTML>
+<?php
+/* Smarty version 4.2.1, created on 2022-10-28 09:12:34
+  from 'C:\xampp\htdocs\Dropbox\php_fortgeschritten_18_10_2022\SmartyWebsite2\templates\layout.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '4.2.1',
+  'unifunc' => 'content_635b80e27965a1_61768361',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '5a86ef8dcfa78cf78745cc5818d4d03c714cf139' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\Dropbox\\php_fortgeschritten_18_10_2022\\SmartyWebsite2\\templates\\layout.tpl',
+      1 => 1666941122,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+    'file:nav.tpl' => 1,
+  ),
+),false)) {
+function content_635b80e27965a1_61768361 (Smarty_Internal_Template $_smarty_tpl) {
+?><!DOCTYPE HTML>
 <!--
 	Projection by TEMPLATED
 	templated.co @templatedco
@@ -66,7 +90,8 @@
 			<section id="three" class="wrapper align-center">
 				<div class="inner">
 					<div class="flex flex-2">
-{include file="nav.tpl"}  
+<?php $_smarty_tpl->_subTemplateRender("file:nav.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+?>  
 					</div>
 				</div>
 			</section>
@@ -104,10 +129,20 @@
 			</footer>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<?php echo '<script'; ?>
+ src="assets/js/jquery.min.js"><?php echo '</script'; ?>
+>
+			<?php echo '<script'; ?>
+ src="assets/js/skel.min.js"><?php echo '</script'; ?>
+>
+			<?php echo '<script'; ?>
+ src="assets/js/util.js"><?php echo '</script'; ?>
+>
+			<?php echo '<script'; ?>
+ src="assets/js/main.js"><?php echo '</script'; ?>
+>
 
 	</body>
 </html>
+<?php }
+}
