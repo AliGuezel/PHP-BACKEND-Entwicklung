@@ -1,0 +1,25 @@
+Aufgabe:
+
+Programmieren Sie eine Klasse mit dem Namen "Formular". Die Klasse soll es ermöglichen ein beliebiges
+HTML-Formular erzeugen zu können. Dazu sollen folgende Methoden mindestens in der Klasse vorhanden sein:
+
+formstart()		// Erzeugt ein <form ... >
+formende()		// Erzeugt ein </form>
+text()			// Erzeugt ein <input type="text" ...>
+password()		// Erzeugt ein <input type="password" ...>
+hidden()		// Erzeugt ein <input type="hidden" ...>
+checkbox()		// Erzeugt ein <input type="checkbox" ...>
+radio()			// Erzeugt ein <input type="radio" ...>
+submit()		// Erzeugt ein <input type="submit" ...>
+textarea()		// Erzeugt ein <textarea ...>...</textarea>
+select()		// Erzeugt ein <select ...><option ....></option>...</select>
+
+Sie sollen sich selbst überlegen wie viele Parameter jede einzelne Methode bekommen soll. 
+Ist es später möglich ein beliebiges Formular mit der Formular-Klasse erzeugen zu können, 
+ist die Klasse erfolgreich geschrieben. Beachten Sie die vielen Attribute (z.B. name, id, class, 
+maxlength, value, ...) die in einem HTML-Formulartag enthalten sein können. Ob die Methoden
+die HTML-Formularelemente selbst ausgeben, oder zurückliefern oder in eine Eigenschaft speichern
+dürfen Sie selbst bestimmen.
+
+Sie dürfen jederzeit zusätzliche Methoden in die Klasse mit einbauen! 
+
