@@ -1,0 +1,24 @@
+Kurs: 		PHP I (PHP Grundlagen)
+Zeitraum: 	15.09.2022 - 17.10.2022 (21 Tage) 
+Dozent: 	Michael Mündelein 
+Klausur: 	17.10.2022
+
+Unterrichtsfreie Tage:
+Dienstag, 20.09.2022 - Weltkindertag
+Montag, 03.10.2022 - Tag der deutschen Einheit
+
+Tageszeitplan: 
+
+08:00 Uhr - 09:30 Uhr -> Unterricht / Übungen   
+09:30 Uhr - 09:45 Uhr -> 1. Pause
+09:45 Uhr - 11:15 Uhr -> Unterricht / Übungen 	
+11:15 Uhr - 11:30 Uhr -> 2. Pause
+11:30 Uhr - 13:00 Uhr -> Unterricht / Übungen	
+13:00 Uhr - 13:30 Uhr -> 3. Pause
+
+13:30 Uhr - 15:00 Uhr -> Übungsphase  
+15:00 Uhr - 15:15 Uhr -> 4. Pause
+15:15 Uhr - 16:45 Uhr -> Übungsphase / Eigene Kursnachbereitung / Offene Fragen
+
+
+
